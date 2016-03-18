@@ -1,0 +1,7 @@
+app:
+    resource: "@AppBundle/Resources/config/routing.yml"
+    prefix:   /
+
+seferov_blog:
+    resource: "@SeferovBlogBundle/Resources/config/routing.yml"
+    prefix:   /blog

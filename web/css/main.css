@@ -1,0 +1,13 @@
+html {
+    font-family: Georgia,Times New Roman,serif;
+    color: #3d3d3d;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 10px auto;
+}
