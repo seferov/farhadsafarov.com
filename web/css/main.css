@@ -1,13 +1,37 @@
 html {
-    font-family: Georgia,Times New Roman,serif;
-    color: #3d3d3d;
+    font-family: Tiempos Text, Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 1.6em;
+    color: #565656;
+}
+
+a {
+    color: #222222;
+}
+
+footer {
+    border-top: 1px solid #AAA;
 }
 
 .text-center {
     text-align: center;
 }
 
+.text-muted {
+    color: #B6B9BB;
+}
+
 .container {
     max-width: 600px;
     margin: 10px auto;
+}
+
+/* blog */
+.post {
+    margin-top: 30px;
+}
+
+.post-title > a {
+    text-decoration: none;
+    font-size: 22px;
 }

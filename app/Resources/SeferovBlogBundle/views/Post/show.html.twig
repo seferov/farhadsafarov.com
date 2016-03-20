@@ -1,0 +1,21 @@
+{% extends 'SeferovBlogBundle::layout.html.twig' %}
+
+{% block content %}
+    <div class="post" itemscope>
+        <h1 class="post-title" itemprop="name headline">
+            <a href="{{ url('seferov_blog_show', { 'titleSlug':post.titleSlug, 'month':post.month, 'year':post.year }) }}">
+                {{ post.title }}
+            </a>
+        </h1>
+
+        <span class="text-muted">{{ post.createdAt|date('d F Y') }}</span>
+
+        <div class="post-content" itemprop="articleBody">
+            {{ post.post|markdown|raw }}
+        </div>
+    </div>
+
+    <div class="post-comments">
+        {% include '@SeferovBlog/Widget/disqus.html.twig' %}
+    </div>
+{% endblock %}

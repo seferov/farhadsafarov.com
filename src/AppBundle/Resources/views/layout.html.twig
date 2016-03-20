@@ -10,8 +10,14 @@
 <body>
 
 <div class="container">
-    <h1 class="text-center">Farhad Safarov</h1>
+    {% block main %}
+        <h1 class="text-center">Farhad Safarov</h1>
+    {% endblock %}
 </div>
+
+<footer class="container">
+    <p class="text-muted">© {{ "now"|date('Y') }} Farhad Safarov</p>
+</footer>
 
 </body>
 </html>

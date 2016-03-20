@@ -1,0 +1,27 @@
+{% extends 'SeferovBlogBundle::layout.html.twig' %}
+
+{% block content %}
+    {% for post in posts %}
+        {% set url = url('seferov_blog_show', {
+            'titleSlug':post.titleSlug,
+            'month':post.month,
+            'year':post.year
+        }) %}
+        <div class="post">
+            <h3 class="post-title"><a href="{{ url }}">{{ post.title }}</a></h3>
+            <span class="text-muted">{{ post.createdAt|date('d F Y') }}</span>
+            <div class="post-excerpt">
+                {{ post.post|markdown|striptags|excerpt(800) }}...
+            </div>
+            <a class="read-more" href="{{ url }}">Read more &#8594;</a>
+        </div>
+    {% endfor %}
+
+    {% if posts|length > 20 %}
+        <div class="pagination">
+            {{ pagerfanta(posts, 'twitter_bootstrap3_translated') }}
+        </div>
+    {% endif %}
+
+    {{ parent() }}
+{% endblock %}
