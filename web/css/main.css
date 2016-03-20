@@ -14,8 +14,9 @@ footer {
 }
 
 .fs {
-    margin: 30px 0 60px;
     font-size: 20px;
+    text-decoration: none!important;
+    color: #565656!important;
 }
 
 .block {
@@ -33,6 +34,15 @@ footer {
 .container {
     max-width: 600px;
     margin: 10px auto;
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+.icons a {
+    text-decoration: none;
+    margin: 0 10px;
 }
 
 /* blog */
