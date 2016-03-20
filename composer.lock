@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b426596c1949ced69c6075fc46f30c2b",
-    "content-hash": "a1393b071ff62b9701c9b3b6e0083c22",
+    "hash": "7191ee01d3e5c866396eb44c026d7eee",
+    "content-hash": "c653c7bd981ae94df113947f9e299eb4",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -1280,16 +1280,16 @@
         },
         {
             "name": "seferov/blog-bundle",
-            "version": "v0.2.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/seferov/blog-bundle.git",
-                "reference": "33a26198a8e20156c825acbd34a978c179d07300"
+                "reference": "913a3d9f5025f4fe401aaafd2945f661fa41a5e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/seferov/blog-bundle/zipball/33a26198a8e20156c825acbd34a978c179d07300",
-                "reference": "33a26198a8e20156c825acbd34a978c179d07300",
+                "url": "https://api.github.com/repos/seferov/blog-bundle/zipball/913a3d9f5025f4fe401aaafd2945f661fa41a5e4",
+                "reference": "913a3d9f5025f4fe401aaafd2945f661fa41a5e4",
                 "shasum": ""
             },
             "require": {
@@ -1316,13 +1316,13 @@
                     "homepage": "http://ferhad.in"
                 }
             ],
-            "description": "Symfony2 Blog Bundle",
+            "description": "Symfony Blog Bundle",
             "keywords": [
-                "Symfony2",
                 "blog",
-                "news"
+                "news",
+                "symfony"
             ],
-            "time": "2016-03-13 03:58:19"
+            "time": "2016-03-20 08:08:37"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -2660,7 +2660,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "seferov/blog-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
