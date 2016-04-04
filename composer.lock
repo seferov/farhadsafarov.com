@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7191ee01d3e5c866396eb44c026d7eee",
-    "content-hash": "c653c7bd981ae94df113947f9e299eb4",
+    "hash": "d9ed4127805ff4c4eac0b0b493b1f214",
+    "content-hash": "9eed9868f9486e36beaa56140f693d70",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -1280,19 +1280,20 @@
         },
         {
             "name": "seferov/blog-bundle",
-            "version": "dev-master",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/seferov/blog-bundle.git",
-                "reference": "913a3d9f5025f4fe401aaafd2945f661fa41a5e4"
+                "reference": "c0caeee4d34b3d8cf410d63b1697c8b4f911a477"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/seferov/blog-bundle/zipball/913a3d9f5025f4fe401aaafd2945f661fa41a5e4",
-                "reference": "913a3d9f5025f4fe401aaafd2945f661fa41a5e4",
+                "url": "https://api.github.com/repos/seferov/blog-bundle/zipball/c0caeee4d34b3d8cf410d63b1697c8b4f911a477",
+                "reference": "c0caeee4d34b3d8cf410d63b1697c8b4f911a477",
                 "shasum": ""
             },
             "require": {
+                "cocur/slugify": "^2.0",
                 "knplabs/knp-markdown-bundle": "~1.3",
                 "php": ">=5.4",
                 "sonata-project/seo-bundle": "~2.0.0",
@@ -1322,7 +1323,7 @@
                 "news",
                 "symfony"
             ],
-            "time": "2016-03-20 08:08:37"
+            "time": "2016-04-04 08:52:07"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -1623,7 +1624,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataCoreBundle/zipball/41a82b8d0c6bbea95dbbd617ef0156b08e5002df",
+                "url": "https://api.github.com/repos/sonata-project/SonataCoreBundle/zipball/ee2ff39fb84a8a83554061588e76578eaae0424b",
                 "reference": "41a82b8d0c6bbea95dbbd617ef0156b08e5002df",
                 "shasum": ""
             },
@@ -1692,7 +1693,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/exporter/zipball/474be8b9dbb8ca1c378aa24e701df940a89ec124",
+                "url": "https://api.github.com/repos/sonata-project/exporter/zipball/8e68cfd2a44fd590226f3b10b21624ced0aa9bef",
                 "reference": "474be8b9dbb8ca1c378aa24e701df940a89ec124",
                 "shasum": ""
             },
@@ -2660,9 +2661,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "seferov/blog-bundle": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
