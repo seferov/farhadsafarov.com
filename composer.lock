@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d9ed4127805ff4c4eac0b0b493b1f214",
-    "content-hash": "9eed9868f9486e36beaa56140f693d70",
+    "hash": "7191ee01d3e5c866396eb44c026d7eee",
+    "content-hash": "c653c7bd981ae94df113947f9e299eb4",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -1280,16 +1280,16 @@
         },
         {
             "name": "seferov/blog-bundle",
-            "version": "0.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/seferov/blog-bundle.git",
-                "reference": "c0caeee4d34b3d8cf410d63b1697c8b4f911a477"
+                "reference": "55f3fbdf07766c88e6f6e95a0ec06a55cf194379"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/seferov/blog-bundle/zipball/c0caeee4d34b3d8cf410d63b1697c8b4f911a477",
-                "reference": "c0caeee4d34b3d8cf410d63b1697c8b4f911a477",
+                "url": "https://api.github.com/repos/seferov/blog-bundle/zipball/55f3fbdf07766c88e6f6e95a0ec06a55cf194379",
+                "reference": "55f3fbdf07766c88e6f6e95a0ec06a55cf194379",
                 "shasum": ""
             },
             "require": {
@@ -1323,7 +1323,7 @@
                 "news",
                 "symfony"
             ],
-            "time": "2016-04-04 08:52:07"
+            "time": "2016-05-28 23:06:06"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -2661,7 +2661,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "seferov/blog-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
